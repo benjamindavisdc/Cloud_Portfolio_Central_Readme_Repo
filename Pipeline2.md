@@ -4,10 +4,15 @@ This project utilizes a CI/CD (Continuous Integration/Continuous Deployment) app
 # Bootstrap.sh
 This script is responsible for configuring the VM (Virtual Machine) and containers through the following steps:
 > It sets up Docker and Docker Network on the host machine. Each container is built and connected to the Docker network during creation. The Jenkins container runs the pipeline, which deploys the website code from GitHub to Apache. 
+
 > Starts the Docker service and adds the current user to the "docker" group. Additionally, it outputs the Docker version.
+
 > updates the system and installs Jenkins on the host machine. It starts the Jenkins service and enables it to run on system startup. The script also outputs the initialAdminPassword, which is required for initial Jenkins setup. Finally, it checks the status of the Jenkins service.
+
 > Creates a Jenkins user using the Jenkins CLI (Command Line Interface). The should be replaced with the desired username and password for the Jenkins user.
+
 > Defines a Jenkins pipeline named "test7pipeline1" which is used for the web deployment process. The pipeline contains multiple stages that clone the Git repository, clean the web directory, copy the files to the Apache container, and perform clean-up tasks.
+
 > Installs and configures the Apache web server on the host machine. It starts the Apache service, enables it to run on system startup, and opens the necessary firewall ports. The script also outputs the version of Apache installed.
 
 
