@@ -2,7 +2,7 @@
 Welcome to a guided tour of this Cloud Backend Infrastructure portfolio. This project showcases my skills as an AWS Certified Cloud Engineer and consists of three distinct, automated pipelines that leverage popular DevOps services to build, modify, and duplicate the project seamlessly.
 
 ## Pipeline 1: Automated Cloud Infrastructure Blueprint
-# Infrastructure as Code
+Infrastructure as Code
 The first step in creating this project was designing the backend infrastructure. I employed the following technologies and tools:
 
 Terraform: Used to define the infrastructure as code.
