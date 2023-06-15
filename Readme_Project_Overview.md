@@ -26,7 +26,7 @@ Initializing Apache
 Configuring the Jenkins Pipeline job from a Jenkinsfile
 Delivering repository files to the Apache web server directory
 
-[Explore the Code Repository](https://github.com/your-username/your-repo](https://github.com/benjamindavisdc/may23pipeline01)
+[Explore the Code Repository](https://github.com/benjamindavisdc/may23pipeline01)
 
 ## Pipeline 3: X-Ray App - Full Stack Python REST API
 To showcase the backend infrastructure over the internet, I developed a unique full-stack app. The X-Ray App consists of two parts:
@@ -35,7 +35,7 @@ Data Scraping: The app scrapes repositories and stores the data in DynamoDB.
 Data Visualization: The app displays the stored data as HTML using Python Flask.
 Traditional portfolio websites often fail to demonstrate the backend aspects of work. To overcome this limitation, I created the X-Ray App to allow visitors to delve into my infrastructure code and gain a deeper understanding of my expertise.
 
-[Explore the Code Repository](https://github.com/your-username/your-repo](https://github.com/benjamindavisdc/lambdaRepoScrapers/blob/main/jenkinsf_scraper.py)
+[Explore the Code Repository](https://github.com/benjamindavisdc/lambdaRepoScrapers/blob/main/jenkinsf_scraper.py)
 
 # Services Used
 Throughout this project, I utilized various services and technologies to ensure effective deployment and management:
